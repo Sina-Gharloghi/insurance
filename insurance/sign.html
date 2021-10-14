@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     <link rel="stylesheet" href="style/overal.css" />
-    <!-- <link rel="stylesheet" href="style/bootstrap.min.css" />
-    <script src="js/bootstrap.min.js"></script> -->
+    <link rel="stylesheet" href="style/sign.css" />
+    <!-- <script src="js/bootstrap.min.js"></script> -->
     <script src="js/jquery.js.js"></script>
     <title></title>
 </head>
@@ -46,8 +46,67 @@
     <div id="Body">
 
         <div id="trunk">
-            <!--Empty for while-->
+            <div id="space"></div>
+            <div id="Forms"><!--Forms-->
 
+                <div id="log" style="margin-top: 0%;">
+                    <p style="color: #ffffff; text-align: center;">.</p>
+                    
+                    <div id="forget" >
+
+                        <a href="#" class="back2">&#10094</a>
+                        
+                        <input type="email" class="input" placeholder="E-mail"/>
+                        
+                        <input type="button" value="ارسال ایمیل بازنشانی" class="submit"/>
+                        <br/>
+                        <p style="color: #3d7aaf; text-align: center;">.</p>
+
+                    </div>
+                    <p style="color: #ffffff; text-align: center;">.</p>
+
+                    <div id="signup">
+
+                        <a href="#" class="back">&#10094</a>
+
+                        <input type="email" class="input" placeholder="E-mail"  id="gap"/>
+
+                        <input type="text" class="input" placeholder="Username"/>
+                        
+                        <input type="tel" class="input" placeholder="Telephone"/>
+
+                        <input type="password" class="input" placeholder="Password"/>
+
+                        <input type="password" class="input" placeholder="Password again"/>
+                        
+                        <input type="button" value="ثبت نام" class="login" />
+                        <p style="color: #3d7aaf; text-align: center;">.</p>
+
+                    </div>
+                    
+                    <div id="signin">
+
+                        <input type="text" class="input" placeholder="Username" id="gap"/>
+
+                        <input type="password" class="input" placeholder="Password"/>
+
+                        <br/> <br/>
+
+                        <a href="#" style="text-decoration: none; margin-left: 41%;" id="recover">رمز خود را فراموش کرده اید؟</a>
+                            <br/>
+                        <a href="Dashboard.html"><input type="button" value="ورود" class="login" /></a>
+
+                        <p style=" font-size: 13px; color: azure; margin-top: 5%; text-align: center;">حساب کاربری ندارید؟ </p>
+                        <a href="#" style="text-decoration: none; margin-left: 44.5%;" id="creat">ایجاد حساب کاربری </a>
+
+                        <p style="color: #3d7aaf; text-align: center;">.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div style="height: 15%;"></div>
         </div>
             
     </div>
@@ -57,13 +116,22 @@
             <div id="ft-1" class="grid-child">
 
                 <br />
-                <img src="img/footer/location.png" class="contact"/>
+                <div style="width: 70%; float: right;">
+                    <img src="img/footer/location.png" class="contact"/>
                     <br/>
-                <img src="img/footer/phone.png" class="contact"/>
+                    قزوین پونک بلوار نخبگان خیابان پیروزی نرسیده به چهارراه ایران ساختمان سهیل طبقه دوم واحد ۳
+                </div>
+                <br/> <br/> <br/>
+
+                <div style="width: 70%; float: right;">
+                    <img src="img/footer/phone.png" class="contact"/>
+                    <br/>
+                    028-33659272
+                </div>
+                
+                <!--<img src="img/footer/fax.png" class="contact"/>
                     <br/> 
-                <img src="img/footer/fax.png" class="contact"/>
-                    <br/> 
-                <img src="img/footer/mail.png" class="contact"/>
+                <img src="img/footer/mail.png" class="contact"/>-->
 
             </div>
 
@@ -83,13 +151,19 @@
 
             <div id="ft-3" class="grid-child">
                 <br />
-                <img src="img/footer/location.png" class="contact1"/>
+                <div style="width: 70%; float: right;">
+                    <img src="img/footer/location.png" class="contact1"/>
                     <br/>
-                <img src="img/footer/phone.png" class="contact1"/>
-                    <br/> 
-                <img src="img/footer/fax.png" class="contact1"/>
-                    <br/> 
-                <img src="img/footer/mail.png" class="contact1"/>
+                    قزوین پونک بلوار نخبگان خیابان پیروزی نرسیده به ۴راه ایران ساختمان سهیل طبقه دوم واحد ۳
+                </div>
+                <br/> <br/> <br/>
+
+                <div style="width: 70%; float: right;">
+                    <img src="img/footer/phone.png" class="contact1"/>
+                    <br/>
+                    028-33659272
+                </div>
+
             </div>
 
     </div>
@@ -97,5 +171,6 @@
 </body>
 
 <script src="js/overal.js"></script>
+<script src="js/sign.js"></script>
 
 </html>
