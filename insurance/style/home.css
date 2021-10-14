@@ -1,0 +1,70 @@
+#slider
+{
+    position: relative;
+}
+
+.text{
+    position: absolute;
+    color: rgb(129, 136, 156);
+    bottom: 10%;
+    text-align: center;
+    width: 100%;
+    font-size: 22px;
+}
+
+.perv, .next
+{
+    color: rgb(180, 180, 180);
+    text-decoration: none;
+    position: absolute;
+    font-size: 40px;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+
+.perv {left: 15%;}
+.next {right: 15%;}
+
+.slide
+{
+    display: none;
+    animation: fade 2s;
+}
+
+.slide.active
+{
+    display: block;
+}
+
+.sliderpic
+{
+    width: 60%; 
+    height: 70%;
+    margin-left: 20%;
+    border-radius: 20px;
+    margin-top: 2%;
+}
+
+.dot
+{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: 0.5%;
+}
+.dot.active
+{
+    background-color: rgb(255, 85, 26);
+}
+
+#dots
+{
+    text-align: center;
+}
+
+@keyframes fade {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
