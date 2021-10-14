@@ -147,11 +147,11 @@ body{background-color: #e6e6e6; font-family: b roya;}
     @media only screen and (max-width: 600px)
         {
             .header-li2 
-            {
-                display: block; 
-                padding: 3%;
-            } 
-            #header-ul2 {margin-left: -10%;}
+                {
+                    display: block; 
+                    padding: 2.5%;
+                }
+            #header-ul2 {margin-left: -9%;}
             .header-a2
             {
                 width: 30%;
@@ -207,7 +207,7 @@ body{background-color: #e6e6e6; font-family: b roya;}
 #trunk
 {
     margin-top: 3%;
-    height: 95%;
+    height: auto;
     background-color: white;
 }
 
