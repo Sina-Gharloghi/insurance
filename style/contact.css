@@ -1,0 +1,96 @@
+#map
+{
+    width: 30%;
+    margin-left: 35%;
+}
+
+#phone_n , #address
+{
+    font-family: b roya;
+    color:rgb(0, 67, 122) ;
+    text-align: center;
+    font-size: 140%;
+}
+
+#address
+{
+    margin-top: 5%;
+}
+
+#cnt_info
+{
+    display: none;
+}
+
+/*-----------------------------------*/
+
+@media only screen and (max-width: 1400px) 
+    {
+        #map
+        {
+            width: 40%;
+            margin-left: 30%;
+        }
+    }
+
+@media only screen and (max-width: 900px) 
+    {
+        #map
+        {
+            width: 50%;
+            margin-left: 25%;
+        }
+    }
+
+@media only screen and (max-width: 700px) 
+    {
+        #map
+        {
+            width: 70%;
+            margin-left: 15%;
+        }
+    }
+
+@media only screen and (max-width: 500px) 
+    {
+        #map
+        {
+            width: 90%;
+            margin-left: 5%;
+        }
+    }
+
+@media only screen and (max-width: 450px) 
+    {
+        #map
+        {
+            width: 96%;
+            margin-left: 2%;
+            height: 50%;
+        }
+    }
+/*@media only screen and (max-width: 1100px) 
+    {
+        #map
+        {
+            width: 45%;
+            margin-left: 10%;
+        }
+
+        #cnt_info
+        {
+            display: block;
+            margin-left: 50%;
+            background-color: blue;
+            width: 30%;
+            height: 20%;
+            position: absolute;
+        }
+        #phone_n1 , #address1
+        {
+            font-family: b roya;
+            color:rgb(251, 253, 255) ;
+            text-align: center;
+            font-size: 140%;
+        }
+    }*/
