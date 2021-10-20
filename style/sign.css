@@ -26,7 +26,7 @@
     font-size: 140%;
     font-family: b roya;
 }
-.input1::placeholder{float: right; margin-right: 5%;}
+.input1::placeholder{float: right; margin-right:5%;}
 
 .input2
 {
@@ -39,7 +39,7 @@
     font-size: 140%;
     font-family: b roya;
 }
-.input2::placeholder{float: right; margin-right: 5%;}
+.input2::placeholder{float: right; margin-right:5%;}
 
 .input3
 {
@@ -52,7 +52,7 @@
     font-size: 140%;
     font-family: b roya;
 }
-.input3::placeholder{float: right; margin-right: 5%;}
+.input3::placeholder{float: right; margin-right:5%;}
 
 #pass
 {
