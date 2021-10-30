@@ -113,7 +113,7 @@ body{background-color: #e6e6e6; font-family: b roya;}
                     margin-left: 10%;
                 }
             
-            #header-ul2 {margin-left: -8%;}
+            #header-ul2 {margin-left: -8%; position:static;}
 
             .header-li2 
                 {
@@ -215,7 +215,7 @@ body{background-color: #e6e6e6; font-family: b roya;}
 {
     #trunk
     {
-       margin-top: 20%;
+       margin-top: 50%;
     }
 
 }

@@ -317,3 +317,16 @@
         }
 
     }
+
+@media only screen and (max-height: 750px) , (max-width: 500px)
+    {
+        #forget , #signin , #signup
+        {
+            width: 80%;
+            margin-left: 10%;
+        }
+        .login
+        {
+            height: 6%;
+        }
+    }

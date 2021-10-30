@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     <link rel="stylesheet" href="style/overal.css" />
-    <link rel="stylesheet" href="style/sign.css" />
-    <!-- <script src="js/bootstrap.min.js"></script> -->
+    <link rel="stylesheet" href="style/home.css" />
+    
     <script src="js/jquery.js.js"></script>
     <title></title>
 </head>
 
 <body class="container-fluid">
     <div id="header">
-        <a href="index.html"><img src="img/logo/logo.png" id="logo"/></a>  
+        <a href="index.html"><img src="img/logo/logo.png" id="logo"/></a>
 
         <a href="#"> <img src="img/home/menu_icon.png" id="menu_icon"/> </a>
         
@@ -46,69 +46,26 @@
     <div id="Body">
 
         <div id="trunk">
-            <div id="space"></div>
-            <div id="Forms"><!--Forms-->
-
-                <div id="log" style="margin-top: 0%;">
-                    <p style="color: #ffffff; text-align: center;">.</p>
-                    
-                    <div id="forget" >
-
-                        <a href="#" class="back2">&#10094</a>
-                        
-                        <input type="email" class="input3" placeholder="ایمیل"/>
-                        
-                        <input type="button" value="ارسال ایمیل بازنشانی" class="submit"/>
-                        <br/>
-                        <p style="color: #3d7aaf; text-align: center;">.</p>
-
-                    </div>
-                    <p style="color: #ffffff; text-align: center;">.</p>
-
-                    <div id="signup">
-
-                        <a href="#" class="back">&#10094</a>
-
-                        <input type="text" class="input2" placeholder="نام و نام خانوداگی" id="gap"/>
-                        
-                        <input type="text" class="input2" placeholder="کد ملی"/>
-                        
-                        <input type="tel" class="input2" placeholder="شماره تلفن همراه"/>
-
-                        <input type="email" class="input2" placeholder=" ایمیل (اختیاری)"  />
-
-                        <input type="password" class="input2" placeholder="گذرواژه"/>
-
-                        <input type="password" class="input2" placeholder="تکرار گذرواژه"/>
-                        
-                        <input type="button" value="ثبت نام" class="login" />
-                        <p style="color: #3d7aaf; text-align: center;">.</p>
-
-                    </div>
-                    
-                    <div id="signin">
-
-                        <input type="text" class="input1" placeholder="کد ملی" id="gap"/>
-
-                        <input type="password" class="input1" placeholder="گذرواژه"/>
-
-                        <br/> <br/>
-
-                        <a href="#" id="recover">رمز خود را فراموش کرده اید؟</a>
-                            <br/>
-                        <a href="Dashboard.html"><input type="button" value="ورود" class="login" /></a>
-
-                        <p style=" font-size: 13px; color: azure; margin-top: 5%; text-align: center;">حساب کاربری ندارید؟ </p>
-                        <a href="#" id="creat">ایجاد حساب کاربری </a>
-
-                        <p style="color: #3d7aaf; text-align: center;">.</p>
-                    </div>
-
+            
+            <div id="slider"><!--slider-->
+                            
+                <div class="slide active">
+                    <img src="img/home/1.jpg" title="بیمه رازی" class="sliderpic"/>
                 </div>
 
-            </div>
+                <div class="slide">
+                    <img src="img/home/2.jpeg" title="بیمه رازی" class="sliderpic"/>
+                </div>
 
-            <div style="height: 15%;"></div>
+                <div class="slide">
+                    <img src="img/home/3.jpg" title="بیمه رازی" class="sliderpic"/>
+                </div>
+
+                <a href="#" class="perv">&#10094</a>
+                <a href="#" class="next">&#10095</a>
+
+            </div>
+            <div style="height: 5%;"></div>
         </div>
             
     </div>
@@ -165,7 +122,6 @@
                     <br/>
                     028-33659272
                 </div>
-
             </div>
 
     </div>
@@ -173,6 +129,5 @@
 </body>
 
 <script src="js/overal.js"></script>
-<script src="js/sign.js"></script>
-
+<script src="js/slider.js"></script>
 </html>
