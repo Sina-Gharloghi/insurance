@@ -1,0 +1,78 @@
+body{background-color: #e6e6e6; font-family: b roya;}
+
+#dash-opt
+{
+    width: 5%;
+    height: 80%;
+    background-color: #5094cf;
+    margin-top: 3%;
+    box-shadow: -10px 0px 50px rgb(143, 143, 143);
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    position: absolute;
+    right: 0%;
+}
+
+#profile
+{
+    width: 70%;
+    height: 90%;
+    /*background-color: white;*/
+    margin: auto;
+    margin-top: 3%;
+    position: relative;
+}
+
+#personal-info
+{
+    position: relative;
+    margin: auto;
+    width: 90%;
+    height: 30%;
+    background-color: white;
+    border-radius: 30px;
+    direction: rtl;
+}
+
+#info
+{
+    width: 95%;
+    height: 95%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.info-ul
+{
+    position:absolute;
+    margin-top: 1%;
+    font-size: 160%;
+    list-style-type: none;
+}
+
+.li1 {margin-top: 18%;}
+
+#info-ul2 {margin-right: 12%; margin-top: 0%;}
+#info-ul3 {margin-right: 40%;}
+#info-ul4 {margin-right: 52%; margin-top: 0%;}
+#info-ul5 {margin-right: 85%;}
+
+#link 
+{
+    text-decoration: none;
+    color: #3d7db4;
+    font-size: 75%;
+}
+#status
+{
+    position: relative;
+    margin: auto;
+    width: 90%;
+    height: 30%;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 5%;
+}
+
