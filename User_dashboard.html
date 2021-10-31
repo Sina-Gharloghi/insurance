@@ -14,38 +14,40 @@
 
 
 <body>
+
     <div id="dash-opt">
 
-        <div style="height: 17.5%; position: relative;">
+        <div class="opt-env" id="opt-env1" style="border-top-left-radius: 30px;">
             <br/>
             <p class="opt">پروفایل</p>
         </div>
         <hr/>
 
-        <div style="height: 17.5%; position: relative;">
+        <div class="opt-env" id="opt-env2">
             <br/>
             <p class="opt">خرید بیمه</p>
         </div>
         <hr/>
 
-        <div style="height: 17.5%; position: relative;">
+        <div class="opt-env" id="opt-env3">
             <br/>
-            <p class="opt">مدیریت بیمه ها</p>
+            <p class="opt">مدیریت حساب</p>
         </div>
         <hr/>
 
-        <div style="height: 17.5%; position: relative;">
+        <div class="opt-env" id="opt-env4">
             <br/>
             <p class="opt">جوایز</p>
         </div>
         <hr/>
 
-        <div style="height: 17.5%; position: relative;">
+        <div class="opt-env" id="opt-env5" style="border-bottom-left-radius: 25px;">
             <br/>
             <p class="opt">پشتیبانی</p>
         </div>
 
     </div>
+
 <!--.....................................-->
     <div id="profile">
 
@@ -93,7 +95,7 @@
 
             <br/>
 
-            <p></p>
+            <p style="color: goldenrod; font-size: 200%; text-align: center;"> <b>980</b></p>
         </div>
 
     </div>
@@ -102,22 +104,52 @@
     <div id="buy">
 
         <div class="insure">
+            <img src="#" class="img1"/>
+
+            <div class="details1">
+                <p > بیمه عمر </p>
+            </div>
+
             <button id="get">ثبت</button>
         </div>
 
         <div class="insure">
+            <img src="#" class="img1"/>
+            
+            <div class="details1">
+                <p > توضیحات </p>
+            </div>
+
             <button id="get">ثبت</button>
         </div>
 
         <div class="insure">
+            <img src="#" class="img1"/>
+
+            <div class="details1">
+                <p > توضیحات </p>
+            </div>
+
             <button id="get">ثبت</button>
         </div>
 
         <div class="insure">
+            <img src="#" class="img1"/>
+
+            <div class="details1">
+                <p > توضیحات </p>
+            </div>
+
             <button id="get">ثبت</button>
         </div>
 
         <div class="insure">
+            <img src="#" class="img1"/>
+            
+            <div class="details1">
+                <p > توضیحات </p>
+            </div>
+
             <button id="get">ثبت</button>
         </div>
 
@@ -128,7 +160,26 @@
 
     <div id="manage"></div>
     <div id="gifts"></div>
-    <div id="support"></div>
+
+<!--.....................................-->
+    <div id="support">
+
+        <div id="ask">
+            <h3 style="text-align: right; color: black; margin-right: 2%;">می توانید مشکل خود را در کادر زیرمطرح کنید</h3>
+
+            <form>
+                <input type="text" id="ticket-txt"/>
+
+                <button id="ticket-sub">ثبت تیکت</button>
+            </form>
+
+            <br/> <br/> <br/>
+        </div>
+
+        <div id="answer">
+        </div>
+    </div>
+
 </body>
 
 <script src="js/user_dashboard.js"></script>
