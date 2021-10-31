@@ -22,6 +22,13 @@ body{background-color: #e6e6e6; font-family: b roya;}
     font-size: 110%;
 }
 
+.opt-env
+{
+    height: 18%; 
+    position: relative;
+    background-color: #5094cf;
+}
+
 /*----------------------------------------*/
 #profile
 {
@@ -123,5 +130,92 @@ body{background-color: #e6e6e6; font-family: b roya;}
 #get
 {
     width: 8%;
+    height: 20%;
+    font-size: 160%;
+    border-radius: 30px;
+    border: 0px;
+    margin-right: 90%;
+    margin-top: 15%;
+    font-family: b koodak;
+    color: white;
+    background-color: #55a9f1;
+}
+
+.img1
+{
+    width: 15%;
+    height: 70%;
+    border-radius: 30px;
+    margin-top: 3%;
+    margin-right: 3%;
+    background-color: tomato;
+    position: absolute;
+}
+
+.details1
+{
+    margin-right: 25%;
+    position: absolute;
+    font-size: 130%;
+    margin-top: 2%;
+    width: 50%;
+    height: 90%;
+    justify-self: self-end ;
+}
+
+/*----------------------------------------------*/
+
+#support
+{
+    width: 70%;
+    height: 90%;
+    /*background-color: white;*/
+    margin: auto;
+    margin-top: 3%;
+    position: relative; 
+    direction: rtl;
+}
+#ask
+{
+background-color: white;
+border-radius: 40px;
+width: 80%;
+margin: auto;
+position: relative;
+box-shadow: 0px 0px 50px rgb(143, 143, 143);
+}
+
+#ticket-txt
+{
+    margin-right: 15%;
+    width: 70%;
+    height: 30%;
+    border-radius: 30px;
+    font-size: 120%;
+}
+
+#ticket-sub
+{
+    position: absolute;
+    margin-top: 22%;
+    width: 10%;
     height: 15%;
+    font-size: 130%;
+    font-family: b koodak;
+    border-radius: 30px;
+    border: 0px;
+    background-color: #55a9f1;
+    color: white;
+}
+
+#answer
+{
+    background-color: white;
+    border-radius: 40px;
+    width: 80%;
+    margin: auto; 
+    position: relative;
+    height: 25%;
+    margin-top: 5%;
+    box-shadow: 0px 0px 50px rgb(143, 143, 143);
 }
