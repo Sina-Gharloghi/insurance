@@ -11,10 +11,18 @@ body{background-color: #e6e6e6; font-family: b roya;}
     border-top-left-radius: 30px;
     border-bottom-right-radius: 5px;
     border-top-right-radius: 5px;
-    position: absolute;
-    right: 0%;
+    position:fixed;
+    margin-left: 94.5%;
 }
 
+.opt
+{
+    text-align: center;
+    color: white;
+    font-size: 110%;
+}
+
+/*----------------------------------------*/
 #profile
 {
     width: 70%;
@@ -34,6 +42,7 @@ body{background-color: #e6e6e6; font-family: b roya;}
     background-color: white;
     border-radius: 30px;
     direction: rtl;
+    box-shadow: 0px 0px 50px rgb(143, 143, 143);
 }
 
 #info
@@ -57,13 +66,21 @@ body{background-color: #e6e6e6; font-family: b roya;}
 #info-ul2 {margin-right: 12%; margin-top: 0%;}
 #info-ul3 {margin-right: 40%;}
 #info-ul4 {margin-right: 52%; margin-top: 0%;}
-#info-ul5 {margin-right: 85%;}
+#info-ul5 {margin-right: 80%;}
 
 #link 
 {
     text-decoration: none;
     color: #3d7db4;
     font-size: 75%;
+}
+
+#star
+{
+    width: 7%;
+    color: gold;
+    margin-left: 46%;
+    margin-top: 5%;
 }
 #status
 {
@@ -74,5 +91,37 @@ body{background-color: #e6e6e6; font-family: b roya;}
     background-color: white;
     border-radius: 30px;
     margin-top: 5%;
+    direction: rtl;
+    box-shadow: 0px 0px 50px rgb(143, 143, 143);
 }
 
+/*----------------------------------------------*/
+
+#buy
+{
+    width: 70%;
+    height: auto;
+    /*background-color: white;*/
+    margin: auto;
+    margin-top: 3%;
+    position: relative;
+}
+
+.insure
+{
+    position: relative;
+    margin: auto;
+    width: 80%;
+    height: 25%;
+    background-color: white;
+    border-radius: 40px;
+    margin-top: 5%;
+    direction: rtl;
+    box-shadow: 0px 0px 50px rgb(143, 143, 143);
+}
+
+#get
+{
+    width: 8%;
+    height: 15%;
+}
