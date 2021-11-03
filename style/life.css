@@ -1,0 +1,125 @@
+body{background-color: #e6e6e6; font-family: b roya;}
+
+#page1
+{
+    width: 60%;
+    height: auto;
+    margin: auto;
+    border-radius: 60px;
+    background-color: white;
+    margin-top: 3%;
+    direction: rtl;
+}
+
+#page2
+{
+    width: 60%;
+    height: auto;
+    margin: auto;
+    border-radius: 60px;
+    background-color: white;
+    margin-top: 3%;
+    direction: rtl;
+}
+
+#page3
+{
+    width: 60%;
+    height: auto;
+    margin: auto;
+    border-radius: 60px;
+    background-color: white;
+    margin-top: 3%;
+    direction: rtl;
+}
+
+.pr-title
+{
+    background-color: #4379a8;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h3{color: white;}
+
+.input
+{
+    margin-right: 20%; 
+    margin-top: -7%; 
+    border-radius: 20px; 
+    text-align: center;
+}
+
+#continue1
+{
+    border: 0px;
+    background-color: #4379a8;
+    width: 10%; 
+    height: 5%; 
+    margin-right: 45%; 
+    font-size: 160%; 
+    color: white; 
+    font-family: b koodak; 
+    border-radius: 30px;
+}
+#continue2
+{
+    border: 0px;
+    background-color: #4379a8;
+    width: 10%; 
+    height: 5%; 
+    margin-right: 5%; 
+    font-size: 160%; 
+    color: white; 
+    font-family: b koodak; 
+    border-radius: 30px;
+}
+
+#submit
+{
+    border: 0px;
+    background-color: #4379a8;
+    width: 10%; 
+    height: 5%; 
+    margin-right: 5%; 
+    font-size: 160%; 
+    color: white; 
+    font-family: b koodak; 
+    border-radius: 30px;
+}
+
+#previous1
+{
+    border: 0px;
+    background-color: #4379a8;
+    width: 10%; 
+    height: 5%; 
+    margin-right: 37.5%; 
+    font-size: 160%; 
+    color: white; 
+    font-family: b koodak; 
+    border-radius: 30px;
+}
+
+#previous2
+{
+    border: 0px;
+    background-color: #4379a8;
+    width: 10%; 
+    height: 5%; 
+    margin-right: 37.5%; 
+    font-size: 160%; 
+    color: white; 
+    font-family: b koodak; 
+    border-radius: 30px;
+}
+
+input {text-align: center;}
+
+#add
+{
+    width:4%;
+    height:4%;
+    margin-right: 48%;
+    color: #4379a8;
+}

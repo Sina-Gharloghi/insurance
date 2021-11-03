@@ -1,0 +1,735 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+        <link rel="stylesheet" href="style/life.css"/>
+    
+        <script src="js/jquery.js.js"></script>
+        <title>بیمه عمر</title>
+    </head>
+
+<body>
+    <div id="page1">
+        <p style="width: 90%; margin-right: 5%; font-size: 115%;"> 
+            <b>
+                متقاضی محترم، خواهشمند است کلیه پرسشهاي مندرج در این پیشنهاد را با کمال صداقت و دقت پاسخ داده و هیچ سوالی را بدون پاسخ نگذارید. تکمیل این فرم تا هنگامی که به صدور بیمه نامه منجر نشود، هیچگونه تعهدي
+                براي شرکت بیمه رازي ایجاد نمی کند. ( توجه: صدور بیمه نامه منوط به پذیرش بیمه گر و پرداخت قسط اول حق بیمه توسط بیمه گذار در وجه بیمه گر میباشد.)
+            </b>
+        </p>
+
+        <div id="pr1">
+
+            <div class="pr-title">
+                <h3>مشخصات بیمه گذار (حداقل سن 18 سال تمام)</h3>
+            </div>
+
+                <form style="width: 90%; margin: auto;">
+                    <div>
+
+                            <td>
+                                <tr>نام/ شرکت:</tr>
+                                <tr> <input type="text"/> -  </tr>
+                                <tr>نام خانوادگی:</tr>
+                                <tr> <input type="text"/> - </tr>
+                                <tr>نام پدر:</tr>
+                                <tr> <input type="text"/> </tr>
+                            </td>
+                            <br/><br/>
+    
+                            <td>
+                                <tr>کد ملی/ شناسه ملی:</tr>
+                                <tr> <input type="text"/> - </tr>
+                                <tr>ش. ش/ شماره ثبت:</tr>
+                                <tr> <input type="text"/> - </tr>
+                                <tr>تاریخ تولد:</tr>
+                                <tr> <input type="text"/> </tr>
+                            </td>
+                            <br/><br/>
+    
+                            <td>
+                                <tr>محل تولد:</tr>
+                                <tr> <input type="text" /> - </tr>
+                                <tr>جنسیت:</tr>
+                                <tr> مرد <input type="radio"/> زن <input type="radio"/> - </tr>
+                                <tr>وضعیت تأهل:</tr>
+                                <tr> مجرد <input type="radio"/> متاهل <input type="radio"/></tr>
+                            </td>
+                            <br/><br/>
+    
+                            <td>
+                                <tr>تابعیت:</tr>
+                                <tr> <input type="text" /> - </tr>
+                                <tr>سطح تحصیلات:</tr>
+                                <tr> <input type="text" /> - </tr>
+                                <tr>شغل اصلی:</tr>
+                                <tr> <input type="text" /> </tr>
+                            </td>
+                            <br/><br/>
+    
+                            <td>
+                                <tr>مشاغل فرعی:</tr>
+                                <tr> <input type="text" /> - </tr>
+                                <tr>نشانی</tr>
+                                <tr> <input type="text" /> </tr>
+                            </td>
+                            <br/><br/>
+    
+                            <td>
+                                <tr>کدپستی:</tr>
+                                <tr> <input type="text" /> - </tr>
+                                <tr>تلفن ثابت:</tr>
+                                <tr> <input type="tel" /> - </tr>
+                                <tr>تلفن همراه:</tr>
+                                <tr> <input type="tel" /> - </tr>
+                                <tr>ایمیل:</tr>
+                                <tr> <input type="email" /> </tr>
+                            </td>
+                            <br/><br/>
+                    </div>
+                </form>
+                
+        </div>
+
+
+        <div id="pr2">
+            <div class="pr-title">
+                <h3>مشخصات بیمه شده</h3>
+            </div>
+
+            <form style="width: 90%; margin: auto;">
+                <div>
+                        <td>
+                            <tr>(در صورتیکه بیمه گذار و بیمه شده شخص واحدي باشند، تکمیل این قسمت ضروري نمی باشد. اگر بیمه شونده خود شما هستید گزینه مقابل را انتخاب کرده و موارد زیر را تکمیل نکنید. در غیر این صورت پر کردن مورد زیر الزامی می باشد.) --- 
+                            </tr>
+                            <tr> بیمه شونده خودم هستم <input type="checkbox"/></tr>
+                            <br/>
+                        </td>
+                        <br/>
+
+                        <td>
+                            <tr>نام/ شرکت:</tr>
+                            <tr> <input type="text"/> -  </tr>
+                            <tr>نام خانوادگی:</tr>
+                            <tr> <input type="text"/> - </tr>
+                            <tr>نام پدر:</tr>
+                            <tr> <input type="text"/> </tr>
+                        </td>
+                        <br/><br/>
+
+                        <td>
+                            <tr>کد ملی/ شناسه ملی:</tr>
+                            <tr> <input type="text"/> - </tr>
+                            <tr>ش. ش/ شماره ثبت:</tr>
+                            <tr> <input type="text"/> - </tr>
+                            <tr>تاریخ تولد:</tr>
+                            <tr> <input type="text"/> </tr>
+                        </td>
+                        <br/><br/>
+
+                        <td>
+                            <tr>محل تولد:</tr>
+                            <tr> <input type="text" /> - </tr>
+                            <tr>جنسیت:</tr>
+                            <tr> مرد <input type="radio"/> زن <input type="radio"/> - </tr>
+                            <tr>وضعیت تأهل:</tr>
+                            <tr> مجرد <input type="radio"/> متاهل <input type="radio"/></tr>
+                        </td>
+                        <br/><br/>
+
+                        <td>
+                            <tr>تابعیت:</tr>
+                            <tr> <input type="text" /> - </tr>
+                            <tr>سطح تحصیلات:</tr>
+                            <tr> <input type="text" /> - </tr>
+                            <tr>شغل اصلی:</tr>
+                            <tr> <input type="text" /> </tr>
+                        </td>
+                        <br/><br/>
+
+                        <td>
+                            <tr>مشاغل فرعی:</tr>
+                            <tr> <input type="text" /> - </tr>
+                            <tr>نشانی</tr>
+                            <tr> <input type="text" /> </tr>
+                        </td>
+                        <br/><br/>
+
+                        <td>
+                            <tr>کدپستی:</tr>
+                            <tr> <input type="text" /> - </tr>
+                            <tr>تلفن ثابت:</tr>
+                            <tr> <input type="tel" /> - </tr>
+                            <tr>تلفن همراه:</tr>
+                            <tr> <input type="tel" /> - </tr>
+                            <tr>ایمیل:</tr>
+                            <tr> <input type="email" /> </tr>
+                        </td>
+                        <br/><br/>
+                </div>
+            </form>
+
+        </div>
+
+        <div id="pr3">
+            <div class="pr-title">
+                <h3>مشخصات بیمه نامه مورد درخواست</h3>
+            </div>
+
+            <form style="width: 90%; margin: auto;">
+
+                <td>
+                    <tr>مدت بیمه نامه:</tr>
+                    <tr> <input type="number"/> سال </tr>
+                    <tr><input style="width: 10%; border: 0px;"/></tr>
+                    <tr>سپرده اولیه:</tr>
+                    <tr> <input type="text"/> ریال</tr>
+                </td>
+                <br/><br/>
+
+                <td>
+                    <tr>روش پرداخت:</tr>
+                    <input style="width: 3%; border: 0px;"/>
+                    <tr>سالانه</tr>
+                    <tr> <input type="checkbox"/> </tr>
+                    <tr>ماهانه</tr>
+                    <tr> <input type="checkbox"/> </tr>
+                    <tr>دو ماهه</tr>
+                    <tr> <input type="checkbox"/> </tr>
+                    <tr>سه ماهه</tr>
+                    <tr> <input type="checkbox"/> </tr>
+                    <tr>چهار ماهه</tr>
+                    <tr> <input type="checkbox"/> </tr>
+                    <tr>شش ماهه</tr>
+                    <tr> <input type="checkbox"/> </tr>
+                    <tr>یکجا</tr>
+                    <tr> <input type="checkbox"/> </tr>
+                </td>
+                <br/><br/>
+
+                <td>
+                    <tr>مبلغ حق بیمه:</tr>
+                    <tr> <input type="text"/> ریال - </tr>
+                    <tr>افزایش سالانه حق بیمه:</tr>
+                    <tr> <input type="text"/> درصد </tr>
+                </td>
+                <br/><br/>
+
+                <td>
+                    <tr>سرمایه فوت:</tr>
+                    <tr> <input type="text"/> ریال - </tr>
+                    <tr>افزایش سالانه سرمایه فوت:</tr>
+                    <tr> <input type="text"/> درصد </tr>
+                </td>
+                <br/><br/>
+
+                <td>
+                    <tr>نحوه پرداخت سرمایه:</tr>
+                    <tr>یکجا</tr>
+                    <tr> <input type="checkbox"/> </tr>
+                    <tr>مستمري مادامالعمر </tr>
+                    <tr> <input type="checkbox"/> - </tr>
+                    <tr>مستمري مدت معین: 5ساله</tr>
+                    <tr> <input type="checkbox"/> </tr>
+                    <tr>10 ساله</tr>
+                    <tr> <input type="checkbox"/> </tr>
+                    <tr>20 ساله</tr>
+                    <tr> <input type="checkbox"/> </tr>
+                </td>
+
+            </form>
+            <br/>
+
+            <input id="continue1" type="button" value="ادامه"/>
+        </div>
+    
+        <br/><br/>
+    </div>
+<!-------------------------------------------------------------->
+    <div id="page2">
+        <p style="width: 90%; margin-right: 5%; font-size: 115%;"> 
+            <b>
+                متقاضی محترم، خواهشمند است کلیه پرسشهاي مندرج در این پیشنهاد را با کمال صداقت و دقت پاسخ داده و هیچ سوالی را بدون پاسخ نگذارید. تکمیل این فرم تا هنگامی که به صدور بیمه نامه منجر نشود، هیچگونه تعهدي
+                براي شرکت بیمه رازي ایجاد نمی کند. ( توجه: صدور بیمه نامه منوط به پذیرش بیمه گر و پرداخت قسط اول حق بیمه توسط بیمه گذار در وجه بیمه گر میباشد.)
+            </b>
+        </p>
+
+        <div id="pr4">
+            <div class="pr-title">
+                <h3>پوشش هاي تکمیلی</h3>
+            </div>
+
+            <form style="width: 90%; margin: auto;">
+                <div>
+                    <td>
+                        <tr>پوشش فوت به علت حادثه (مازاد بر سرمایه بیمه نامه):</tr>
+                        <tr>عدم درخواست</tr>
+                        <tr><input type="checkbox"/>-</tr>
+                        <tr>یک</tr>
+                        <tr><input type="checkbox"/>-</tr>
+                        <tr>دو</tr>
+                        <tr><input type="checkbox"/>-</tr>
+                        <tr>سه</tr>
+                        <tr><input type="checkbox"/>-</tr>
+                        <tr>چهار</tr>
+                        <tr><input type="checkbox"/>-</tr>
+                        <tr>برابر سرمایه فوت به هر علت</tr>
+                        <tr><input type="checkbox"/></tr>
+                    </td>
+                    <br/><br/>
+
+                    <td>
+                        <tr>پوشش نقص عضو یا از کارافتادگی دائم کلی یا جزئی ناشی از حادثه : </tr>
+                        <tr>بلی <input type="radio"/></tr>
+                        <tr>خیر <input type="radio"/> - </tr>
+                        <tr>پوشش هزینه پزشکی ناشی از حادثه : </tr>
+                        <tr>عدم درخواست <input type="radio"/></tr>
+                        <tr>10 درصد <input type="radio"/></tr>
+                        <tr>20 درصد <input type="radio"/></tr>
+                    </td>
+                    <br/><br/>
+
+                    <td>
+                        <tr>پوشش امراض خاص و سرطان (حداکثر 30 درصد سرمایه فوت به هرعلت) به میزان</tr>
+                        <tr> <input type="text" style="width: 10%;"/> درصد یا <input type="text" style="width: 10%;"/> ریال. - </tr>
+                        <tr>عدم درخواست <input type="checkbox" /> </tr>
+                    </td>
+                    <br/><br/>
+
+                    <td>
+                        <tr>نحوه پرداخت حق بیمه پوشش هاي تکمیلی :</tr>
+                        <tr>در حق بیمه اصلی منظور شود</tr>
+                        <tr><input type="checkbox" /></tr>
+                        <tr>جداگانه محاسبه و به حق بیمه اضافه شود</tr>
+                        <tr><input type="checkbox" /></tr>
+                    </td>
+                    <br/><br/>
+
+                    <td>
+                        <tr>پوشش معافیت از پرداخت حق بیمه در صورت از کارافتادگی دائم و کلی به هر علت :</tr>
+                        <tr>بیمه شده</tr>
+                        <tr><input type="checkbox" /></tr>
+                        <tr>بیمه گذار</tr>
+                        <tr><input type="checkbox" /></tr>
+                        <tr>عدم درخواست</tr>
+                        <tr><input type="checkbox" /></tr>
+                    </td>
+                    <br/><br/>
+
+                    <td>
+                        <tr>پوشش تکمیلی دریافت مستمري درصورت ازکارافتادگی <u>بیمه شده</u> : </tr>
+                        <tr>عدم درخواست</tr>
+                        <tr> <input type="checkbox" /> </tr>
+                        <tr>یک</tr>
+                        <tr> <input type="checkbox" /> </tr>
+                        <tr>دو</tr>
+                        <tr> <input type="checkbox" /> </tr>
+                        <tr>سه</tr>
+                        <tr> <input type="checkbox" /> </tr>
+                    </td>
+                    <br/><br/>
+
+                    <td>
+                        <tr>*
+                            برابر آخرین حق بیمه ي سالانه پرداختی (براي ارائه پوشش هاي فوق باید بیمه شده و بیمه گذار شخص واحدي باشند یا بیمه شده
+                            خواهان استفاده از پوشش معافیت باشد)
+                        </tr>
+                    </td>
+                    <br/><br/>
+
+                    <td>
+                        <tr>پوشش تکمیلی دریافت مستمري درصورت از کارافتادگی <u>بیمه گذار</u> به اندازه 10 درصد سرمایه فوت : </tr>
+                        <tr>بلی</tr>
+                        <tr><input type="checkbox" /></tr>
+                        <tr>خیر</tr>
+                        <tr><input type="checkbox" /></tr>
+                    </td>
+                    <br/><br/>
+
+                    <td>
+                        <tr>سرمایه امراض خاص تکمیلی :</tr>
+                        <tr>بلی</tr>
+                        <tr><input type="checkbox" /></tr>
+                        <tr>خیر</tr>
+                        <tr><input type="checkbox" /></tr>
+                        <tr>(به شرط دریافت پوشش امراض خاص)</tr>
+                    </td>
+                    <br/><br/>
+
+                    <td>
+                        <tr>بیمه شده خواهان استفاده از پوشش درمان انفرادي می باشد :</tr>
+                        <tr>بلی</tr>
+                        <tr><input type="checkbox" /></tr>
+                        <tr>خیر</tr>
+                        <tr><input type="checkbox" /></tr>
+                    </td>
+                    <br/><br/>
+
+                </div>
+
+            </form>
+        </div>
+
+
+        <div id="pr5">
+
+            <div class="pr-title">
+                <h3>مشخصات استفاده کنندگان</h3>
+            </div>
+
+            <form style="width: 90%; margin: auto;">
+                <div>
+                    <td>
+                        <tr>بیمه شده در قید حیات نمی باشد</tr>
+                        <tr><input type="checkbox"/></tr>
+                    </td>
+                    <br/><br/>
+
+                    <td>
+                        <tr>نام/ شرکت:</tr>
+                        <tr> <input type="text"/> -  </tr>
+                        <tr>نام خانوادگی:</tr>
+                        <tr> <input type="text"/> - </tr>
+                        <tr>نام پدر:</tr>
+                        <tr> <input type="text"/> </tr>
+                    </td>
+                    <br/><br/>
+
+                    <td>
+                        <tr>کد ملی/ شناسه ملی:</tr>
+                        <tr> <input type="text"/> - </tr>
+                        <tr>ش. ش/ شماره ثبت:</tr>
+                        <tr> <input type="text"/> - </tr>
+                        <tr>تاریخ تولد:</tr>
+                        <tr> <input type="text"/> </tr>
+                    </td>
+                    <br/><br/>
+
+                    <td>
+                        <tr>نسبت با بیمه شده</tr>
+                        <tr> <input type="text"/> - </tr>
+                        <tr>درصد سهم</tr>
+                        <tr> <input type="text"/> - </tr>
+                        <tr>اولویت</tr>
+                        <tr> <input type="text"/> </tr>
+                    </td>
+                    <br/><br/>
+                    <hr/>
+                    
+
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" id="add"  fill="currentColor" class="bi bi-plus-circle-dotted" viewBox="0 0 16 16">
+                            <path d="M8 0c-.176 0-.35.006-.523.017l.064.998a7.117 7.117 0 0 1 .918 0l.064-.998A8.113 8.113 0 0 0 8 0zM6.44.152c-.346.069-.684.16-1.012.27l.321.948c.287-.098.582-.177.884-.237L6.44.153zm4.132.271a7.946 7.946 0 0 0-1.011-.27l-.194.98c.302.06.597.14.884.237l.321-.947zm1.873.925a8 8 0 0 0-.906-.524l-.443.896c.275.136.54.29.793.459l.556-.831zM4.46.824c-.314.155-.616.33-.905.524l.556.83a7.07 7.07 0 0 1 .793-.458L4.46.824zM2.725 1.985c-.262.23-.51.478-.74.74l.752.66c.202-.23.418-.446.648-.648l-.66-.752zm11.29.74a8.058 8.058 0 0 0-.74-.74l-.66.752c.23.202.447.418.648.648l.752-.66zm1.161 1.735a7.98 7.98 0 0 0-.524-.905l-.83.556c.169.253.322.518.458.793l.896-.443zM1.348 3.555c-.194.289-.37.591-.524.906l.896.443c.136-.275.29-.54.459-.793l-.831-.556zM.423 5.428a7.945 7.945 0 0 0-.27 1.011l.98.194c.06-.302.14-.597.237-.884l-.947-.321zM15.848 6.44a7.943 7.943 0 0 0-.27-1.012l-.948.321c.098.287.177.582.237.884l.98-.194zM.017 7.477a8.113 8.113 0 0 0 0 1.046l.998-.064a7.117 7.117 0 0 1 0-.918l-.998-.064zM16 8a8.1 8.1 0 0 0-.017-.523l-.998.064a7.11 7.11 0 0 1 0 .918l.998.064A8.1 8.1 0 0 0 16 8zM.152 9.56c.069.346.16.684.27 1.012l.948-.321a6.944 6.944 0 0 1-.237-.884l-.98.194zm15.425 1.012c.112-.328.202-.666.27-1.011l-.98-.194c-.06.302-.14.597-.237.884l.947.321zM.824 11.54a8 8 0 0 0 .524.905l.83-.556a6.999 6.999 0 0 1-.458-.793l-.896.443zm13.828.905c.194-.289.37-.591.524-.906l-.896-.443c-.136.275-.29.54-.459.793l.831.556zm-12.667.83c.23.262.478.51.74.74l.66-.752a7.047 7.047 0 0 1-.648-.648l-.752.66zm11.29.74c.262-.23.51-.478.74-.74l-.752-.66c-.201.23-.418.447-.648.648l.66.752zm-1.735 1.161c.314-.155.616-.33.905-.524l-.556-.83a7.07 7.07 0 0 1-.793.458l.443.896zm-7.985-.524c.289.194.591.37.906.524l.443-.896a6.998 6.998 0 0 1-.793-.459l-.556.831zm1.873.925c.328.112.666.202 1.011.27l.194-.98a6.953 6.953 0 0 1-.884-.237l-.321.947zm4.132.271a7.944 7.944 0 0 0 1.012-.27l-.321-.948a6.954 6.954 0 0 1-.884.237l.194.98zm-2.083.135a8.1 8.1 0 0 0 1.046 0l-.064-.998a7.11 7.11 0 0 1-.918 0l-.064.998zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z"/>
+                        </svg>
+                    </a>
+                    
+                </div>
+            </form>
+        </div>
+        <br/> <br/>
+
+        <div id="pr6">
+
+            <div class="pr-title">
+                <h3>سوابق بیمه اي بیمه شده</h3>
+            </div>
+
+            <form style="width: 90%; margin: auto;">
+                <div>
+                    <td>
+                        <tr>نام شرکت بیمه اي</tr>
+                        <tr> <input type="text"/> </tr>
+                        <tr>نوع بیمه نامه</tr>
+                        <tr> <input type="text"/> </tr>
+                        <tr>در جریان صدور / صدور / عدم صدور</tr>
+                        <tr> <input type="text"/> </tr>
+                    </td>
+                    <br/><br/>
+                    <td>
+                        <tr>شماره پیشنهاد / بیمه نامه</tr>
+                        <tr> <input type="text"/> </tr>
+                        <tr>سرمایه فوت (به ریال)</tr>
+                        <tr> <input type="text"/> </tr>
+                        <tr>علت عدم صدور</tr>
+                        <tr> <input type="text"/> </tr>
+                    </td>
+                    <br/><br/>
+                    <hr/>
+                    
+
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" id="add"  fill="currentColor" class="bi bi-plus-circle-dotted" viewBox="0 0 16 16">
+                            <path d="M8 0c-.176 0-.35.006-.523.017l.064.998a7.117 7.117 0 0 1 .918 0l.064-.998A8.113 8.113 0 0 0 8 0zM6.44.152c-.346.069-.684.16-1.012.27l.321.948c.287-.098.582-.177.884-.237L6.44.153zm4.132.271a7.946 7.946 0 0 0-1.011-.27l-.194.98c.302.06.597.14.884.237l.321-.947zm1.873.925a8 8 0 0 0-.906-.524l-.443.896c.275.136.54.29.793.459l.556-.831zM4.46.824c-.314.155-.616.33-.905.524l.556.83a7.07 7.07 0 0 1 .793-.458L4.46.824zM2.725 1.985c-.262.23-.51.478-.74.74l.752.66c.202-.23.418-.446.648-.648l-.66-.752zm11.29.74a8.058 8.058 0 0 0-.74-.74l-.66.752c.23.202.447.418.648.648l.752-.66zm1.161 1.735a7.98 7.98 0 0 0-.524-.905l-.83.556c.169.253.322.518.458.793l.896-.443zM1.348 3.555c-.194.289-.37.591-.524.906l.896.443c.136-.275.29-.54.459-.793l-.831-.556zM.423 5.428a7.945 7.945 0 0 0-.27 1.011l.98.194c.06-.302.14-.597.237-.884l-.947-.321zM15.848 6.44a7.943 7.943 0 0 0-.27-1.012l-.948.321c.098.287.177.582.237.884l.98-.194zM.017 7.477a8.113 8.113 0 0 0 0 1.046l.998-.064a7.117 7.117 0 0 1 0-.918l-.998-.064zM16 8a8.1 8.1 0 0 0-.017-.523l-.998.064a7.11 7.11 0 0 1 0 .918l.998.064A8.1 8.1 0 0 0 16 8zM.152 9.56c.069.346.16.684.27 1.012l.948-.321a6.944 6.944 0 0 1-.237-.884l-.98.194zm15.425 1.012c.112-.328.202-.666.27-1.011l-.98-.194c-.06.302-.14.597-.237.884l.947.321zM.824 11.54a8 8 0 0 0 .524.905l.83-.556a6.999 6.999 0 0 1-.458-.793l-.896.443zm13.828.905c.194-.289.37-.591.524-.906l-.896-.443c-.136.275-.29.54-.459.793l.831.556zm-12.667.83c.23.262.478.51.74.74l.66-.752a7.047 7.047 0 0 1-.648-.648l-.752.66zm11.29.74c.262-.23.51-.478.74-.74l-.752-.66c-.201.23-.418.447-.648.648l.66.752zm-1.735 1.161c.314-.155.616-.33.905-.524l-.556-.83a7.07 7.07 0 0 1-.793.458l.443.896zm-7.985-.524c.289.194.591.37.906.524l.443-.896a6.998 6.998 0 0 1-.793-.459l-.556.831zm1.873.925c.328.112.666.202 1.011.27l.194-.98a6.953 6.953 0 0 1-.884-.237l-.321.947zm4.132.271a7.944 7.944 0 0 0 1.012-.27l-.321-.948a6.954 6.954 0 0 1-.884.237l.194.98zm-2.083.135a8.1 8.1 0 0 0 1.046 0l-.064-.998a7.11 7.11 0 0 1-.918 0l-.064.998zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z"/>
+                        </svg>
+                    </a>
+
+                </div>
+            </form>
+        </div>
+        <br/> <br/>
+
+        <div id="pr7">
+
+            <div class="pr-title">
+                <h3>وضعیت سلامت افراد خانواده</h3>
+            </div>
+
+            <form style="width: 90%; margin: auto;">
+                <tr>
+                    <td>
+                        آیا از افراد درجه یک خانواده شما (پدر، مادر، خواهر، برادر، همسر و فرزندان) به بیماري سل، سرطان، بیماري قلبی، بیماري ریوي، فشار خون، مرض قند، نارسایی کلیه، سکته مغزي، بیماري مادرزادي یا بیماري روحی و
+عصبی مبتلا بوده یا می باشند؟ نام برده و توضیح دهید.
+                    </td>
+                    <br/><br/>
+
+                    <td>
+                        <input type="text" style="width: 100%;"/>
+                    </td>
+                </tr>
+                <br/><br/>
+
+                <tr>
+                    <td>
+                        آیا از افراد درجه یک خانواده شما (پدر، مادر، خواهر، برادر، همسر و فرزندان) زیر سن 65 سال فوت نموده اند؟ نام برده و علت فوت را توضیح دهید.
+                    </td>
+                    <br/><br/>
+
+                    <td>
+                        <input type="text" style="width: 100%;"/>
+                    </td>
+                </tr>
+            </form>
+            <br/><br/>
+
+            <input id="previous1" type="button" value="صفحه قبل"/>
+            <input id="continue2" type="button" value="ادامه"/>
+        </div>
+
+        <br/><br/>
+
+    </div>
+
+    <div id="page3">
+        <p style="width: 90%; margin-right: 5%; font-size: 115%;"> 
+            <b>
+                متقاضی محترم، خواهشمند است کلیه پرسشهاي مندرج در این پیشنهاد را با کمال صداقت و دقت پاسخ داده و هیچ سوالی را بدون پاسخ نگذارید. تکمیل این فرم تا هنگامی که به صدور بیمه نامه منجر نشود، هیچگونه تعهدي
+                براي شرکت بیمه رازي ایجاد نمی کند. ( توجه: صدور بیمه نامه منوط به پذیرش بیمه گر و پرداخت قسط اول حق بیمه توسط بیمه گذار در وجه بیمه گر میباشد.)
+            </b>
+        </p>
+
+        <div id="pr8">
+            <div class="pr-title">
+                <h3>سوالات پزشکی از بیمه شده و بیمه گذار</h3>
+            </div>
+
+            <form style="width: 90%; margin: auto;">
+                <td>
+                    <tr>
+                        چنانچه بیمه گذار خواهان استفاده از پوشش معافیت و فوت میباشد ستون مربوط به بیمه گذار تکمیل گردد در غیر اینصورت تنها تکمیل ستون مربوط به بیمه شده کفایت می کند.
+                    
+                    </tr>
+                </td>
+                <br/><br/>
+
+
+                <td>
+                    <tr>آیا سابقه بیماري هاي دستگاه تنفسی (سرفه مزمن، آسم، تنگی نفس، خلط خونی یا چرکی و...) داشته اید؟---</tr>
+                    <tr>بیمه شده : <input type="radio"/> بلی <input type="radio"/> خیر ---</tr>
+                    <tr>بیمه گذار : <input type="radio"/> بلی <input type="radio"/> خیر</tr>
+                </td>
+                <br/><br/>
+
+                <td>
+                    <tr>آیا سابقه بیماري هاي خونی، سابقه تزریق خون، کم خونی و خونریزي بدون علت طولانی داشته اید؟---</tr>
+                    <tr>بیمه شده : <input type="radio"/> بلی <input type="radio"/> خیر ---</tr>
+                    <tr>بیمه گذار : <input type="radio"/> بلی <input type="radio"/> خیر</tr>
+                </td>
+                <br/><br/>
+
+                <td>
+                    <tr>آیا سابقه بیماري هاي کلیه، مجاري ادرار، مثانه، پروستات، سنگ کلیه و... داشته اید؟---</tr>
+                    <tr>بیمه شده : <input type="radio"/> بلی <input type="radio"/> خیر ---</tr>
+                    <tr>بیمه گذار : <input type="radio"/> بلی <input type="radio"/> خیر</tr>
+                </td>
+                <br/><br/>
+
+                <td>
+                    <tr>آیا سابقه بیماريه اي اعصاب و روان،اضطراب، افسردگی، سابقه خودکشی و وسواس داشته اید؟---</tr>
+                    <tr>بیمه شده : <input type="radio"/> بلی <input type="radio"/> خیر ---</tr>
+                    <tr>بیمه گذار : <input type="radio"/> بلی <input type="radio"/> خیر</tr>
+                </td>
+                <br/><br/>
+
+                <td>
+                    <tr>آیا سابقه بیماريه اي پوستی،خالهاي بزرگ در حال رشد و خونریزي زیرپوستی داشته اید؟---</tr>
+                    <tr>بیمه شده : <input type="radio"/> بلی <input type="radio"/> خیر ---</tr>
+                    <tr>بیمه گذار : <input type="radio"/> بلی <input type="radio"/> خیر</tr>
+                </td>
+                <br/><br/>
+
+                <td>
+                    <tr>آیا سابقه بیماريه اي غدد داخلی نظیر تیروئید، دیابت، کاهش یا افزایش اشتها، چربی خون بالا و... داشته اید؟---</tr>
+                    <tr>بیمه شده : <input type="radio"/> بلی <input type="radio"/> خیر ---</tr>
+                    <tr>بیمه گذار : <input type="radio"/> بلی <input type="radio"/> خیر</tr>
+                </td>
+                <br/><br/>
+
+                <td>
+                    <tr>آیا سابقه بیماريهاي قلب و عروق بهخصوص فشار خون، درد قفسهسینه، تنگی نفس، تپش قلب و سکته قلبی داشتهاید؟---</tr>
+                    <tr>بیمه شده : <input type="radio"/> بلی <input type="radio"/> خیر ---</tr>
+                    <tr>بیمه گذار : <input type="radio"/> بلی <input type="radio"/> خیر</tr>
+                </td>
+                <br/><br/>
+
+                <td>
+                    <tr>آیا سابقه بیماريه اي گوارشی، کبد، پانکراس، تهوع و استفراغ مکرر، اسهال خونی،زردي و یرقان و... داشته اید؟---</tr>
+                    <tr>بیمه شده : <input type="radio"/> بلی <input type="radio"/> خیر ---</tr>
+                    <tr>بیمه گذار : <input type="radio"/> بلی <input type="radio"/> خیر</tr>
+                </td>
+                <br/><br/>
+
+                <td>
+                    <tr>آیا سابقه بیماريه اي داخلی، تشنج، سکته ي مغزي، اماس، مشکلات حرکتی، فراموشی و... داشته اید؟---</tr>
+                    <tr>بیمه شده : <input type="radio"/> بلی <input type="radio"/> خیر ---</tr>
+                    <tr>بیمه گذار : <input type="radio"/> بلی <input type="radio"/> خیر</tr>
+                </td>
+                <br/><br/>
+
+                <td>
+                    <tr>آیا سابقه بیماريه اي گوش و حلق و بینی، خونریزي بینی، کاهش شنوایی، ترشحات چرکی یا خون از گوش و... داشته اید؟---</tr>
+                    <tr>بیمه شده : <input type="radio"/> بلی <input type="radio"/> خیر ---</tr>
+                    <tr>بیمه گذار : <input type="radio"/> بلی <input type="radio"/> خیر</tr>
+                </td>
+                <br/><br/>
+
+                <td>
+                    <tr>آیا سابقه بیماريه اي استخوانی، عضلات و مفاصل، آرتریت و... داشته اید؟---</tr>
+                    <tr>بیمه شده : <input type="radio"/> بلی <input type="radio"/> خیر ---</tr>
+                    <tr>بیمه گذار : <input type="radio"/> بلی <input type="radio"/> خیر</tr>
+                </td>
+                <br/><br/>
+
+                <td>
+                    <tr>آیا سابقه بیماريه اي عفونی مانند سل، هپاتیت، ایدز، مالاریا، حصبه، تب مالت و... داشته اید؟---</tr>
+                    <tr>بیمه شده : <input type="radio"/> بلی <input type="radio"/> خیر ---</tr>
+                    <tr>بیمه گذار : <input type="radio"/> بلی <input type="radio"/> خیر</tr>
+                </td>
+                <br/><br/>
+
+                <td>
+                    <tr>آیا بیماريه اي چشمی (خون مردگی یا کبودي دور چشم، مویرگهاي چشم، تاري دید، دوبین، کاهش بینایی، انحراف چشم، ضعف چشم و...) داشته اید؟</tr>
+                    <br/>
+                    <tr>بیمه شده : <input type="radio"/> بلی <input type="radio"/> خیر ---</tr>
+                    <tr>بیمه گذار : <input type="radio"/> بلی <input type="radio"/> خیر</tr>
+                </td>
+                <br/><br/>
+
+                <td>
+                    <tr>آیا خدمت نظام وظیفه را انجام داده اید؟ با ذکر دلیل <input type="text"/>---</tr>
+                    <tr>بیمه شده : <input type="radio"/> بلی <input type="radio"/> خیر ---</tr>
+                    <tr>بیمه گذار : <input type="radio"/> بلی <input type="radio"/> خیر</tr>
+                </td>
+                <br/><br/>
+                
+                <td>
+                    <tr>آیا از سیگار، مشروبات الکلی و مواد مخدر استفاده می کنید؟ درصورت استفاده نوع و مقدار آن را مشخص کنید. <input type="text"/></tr>
+                    <br/>
+                    <tr>بیمه شده : <input type="radio"/> بلی <input type="radio"/> خیر ---</tr>
+                    <tr>بیمه گذار : <input type="radio"/> بلی <input type="radio"/> خیر</tr>
+                </td>
+                <br/><br/>
+
+                <td>
+                    <tr> آیا راکب موتورسیکلت می باشید یا ورزش حرفه اي انجام می دهید؟ لطفا مدت استفاده از موتورسیکلت در طول روز و نوع ورزش ذکر گردد. <input type="text"/></tr>
+                    <br/>
+                    <tr>بیمه شده : <input type="radio"/> بلی <input type="radio"/> خیر ---</tr>
+                    <tr>بیمه گذار : <input type="radio"/> بلی <input type="radio"/> خیر</tr>
+                </td>
+                <br/><br/>
+
+                <td>
+                    <tr>آیا در شش ماهه گذشته کاهش وزن داشته اید؟ میزان افزایش
+                        <input type="text" style="width: 5%;"/>
+                        کیلوگرم یا کاهش
+                        <input type="text" style="width: 5%;"/>
+                        کیلوگرم--
+                    </tr>
+                </td>
+                <br/><br/>
+
+                <td>
+                    <tr>آیا دچار نقص عضو یا ازکارافتادگی شده اید؟ کدام قسمت <input type="text"/></tr> و به چه میزان <input type="text"/></tr></tr>
+                    <br/>
+                    <tr>بیمه شده : <input type="radio"/> بلی <input type="radio"/> خیر ---</tr>
+                    <tr>بیمه گذار : <input type="radio"/> بلی <input type="radio"/> خیر</tr>
+                </td>
+                <br/><br/>
+
+                <td>
+                    <tr>آیا مورد عمل جراحی قرار گرفته یا از دارویی بصورت بلند مدت استفاده می نمایید؟ با ذکر توضیح کامل <input type="text"/></tr>
+                    <br/>
+                    <tr>بیمه شده : <input type="radio"/> بلی <input type="radio"/> خیر ---</tr>
+                    <tr>بیمه گذار : <input type="radio"/> بلی <input type="radio"/> خیر</tr>
+                </td>
+                <br/><br/>
+
+                <td>
+                    <tr>(سوال مخصوص بانوان) آیا در حال حاضر باردار هستید؟---</tr>
+                    <tr>بیمه شده : <input type="radio"/> بلی <input type="radio"/> خیر ---</tr>
+                    <tr>بیمه گذار : <input type="radio"/> بلی <input type="radio"/> خیر</tr>
+                </td>
+                <br/><br/>
+
+                <td>
+                    <tr>(سوال مخصوص بانوان) آیا سابقه بیماري هاي زنانه داشته اید؟ با توضیح کامل <input type="text"/></tr>
+                    <br/>
+                    <tr>بیمه شده : <input type="radio"/> بلی <input type="radio"/> خیر ---</tr>
+                    <tr>بیمه گذار : <input type="radio"/> بلی <input type="radio"/> خیر</tr>
+                </td>
+                <br/><br/>
+
+                <td>
+                    <tr> آیا به بیماري یا عارضه دیگري مبتلا شدهاید که در موارد فوق ذکر نشده باشد؟ با توضیح کامل <input type="text"/></tr>
+                    <br/>
+                    <tr>بیمه شده : <input type="radio"/> بلی <input type="radio"/> خیر ---</tr>
+                    <tr>بیمه گذار : <input type="radio"/> بلی <input type="radio"/> خیر</tr>
+                </td>
+                <br/><br/>
+
+                <td>
+                    <tr>آیا در حال حاضر سالم هستید؟---</tr> 
+                    <tr>بیمه شده : <input type="radio"/> بلی <input type="radio"/> خیر ---</tr>
+                    <tr>بیمه گذار : <input type="radio"/> بلی <input type="radio"/> خیر</tr>
+                </td>
+                <br/><br/>
+
+                <td>
+                    <tr>قد بیمه شده :</tr>
+                    <tr> <input type="text"/> سانتی متر</tr>
+                    <tr>وزن بیمه شده :</tr>
+                    <tr><input type="text"/> کیلوگرم</tr>
+                    <br/>
+                    <tr>قد بیمه گذار:</tr>
+                    <tr> <input type="text"/> سانتی متر</tr>
+                    <tr>وزن بیمه گذار :</tr>
+                    <tr><input type="text"/> کیلوگرم</tr>
+                </td>
+
+            </form>
+            <br/> <br/>
+
+            <input id="previous2" type="button" value="صفحه قبل"/>
+            <input id="submit" type="button" value="ثبت نهایی"/>
+        </div>
+
+        <br/><br/>
+    </div>
+
+
+    <br/><br/><br/><br/>
+
+</body>
+
+<script src="js/life.js"></script>
+</html>
