@@ -149,3 +149,21 @@ input {text-align: center;}
         width: 98%;
     }
 }
+
+@media only screen and (max-width: 700px)
+{
+    #continue1 , #continue2 , #previous1 , #previous2 , #submit
+    {
+        width: 20%;
+        font-size: 120%;
+    }
+}
+
+@media only screen and (max-width: 400px)
+{
+    #continue1 , #continue2 , #previous1 , #previous2 , #submit
+    {
+        width: 30%;
+        font-size: 120%;
+    }
+}
